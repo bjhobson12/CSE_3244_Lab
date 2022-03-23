@@ -8,6 +8,7 @@ This is the lab for CSE 3244 | 25546 Spring 2022.
 - README.md
 - main.py
 - CSE3244_GCPLab_Overview.pdf
+- images
 - tasks
     task_one.py
     task_two.py
@@ -25,6 +26,7 @@ For this lab a GCP account was made with email cse3244osu@gmail.com and password
 
 ## Task One
 [Answers](./tasks/task_one.txt)
+
 ![alt text](./images/Task_One.png "Task One Complete")
     
 ## Authors
