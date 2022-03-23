@@ -1,0 +1,26 @@
+mysql> SELECT name_first, name_last, hand, dob, country from players P where P.country='AUS' limit 20;
++------------+-------------+------+------------+---------+
+| name_first | name_last   | hand | dob        | country |
++------------+-------------+------+------------+---------+
+| Kerry Anne | Guse        | R    | 1972-12-04 | AUS     |
+| Alicia     | Molik       | R    | 1981-01-27 | AUS     |
+| Bryanne    | Stewart     | R    | 1979-12-09 | AUS     |
+| Lisa       | Mcshea      | R    | 1974-10-29 | AUS     |
+| Amanda     | Grahame     | L    | 1979-03-25 | AUS     |
+| Nicole     | Pratt       | R    | 1973-03-05 | AUS     |
+| Annabel    | Ellwood     | R    | 1978-02-02 | AUS     |
+| Melissa    | Dowse       | R    | 1982-04-27 | AUS     |
+| Evie       | Dominikovic | R    | 1980-05-29 | AUS     |
+| Rachel     | Mcquillan   | U    | 1971-12-02 | AUS     |
+| Jelena     | Dokic       | R    | 1983-04-12 | AUS     |
+| Lesley     | Turner      | R    | 1942-08-16 | AUS     |
+| Dorothy    | Whitely     | U    | 0000-00-00 | AUS     |
+| Kay        | Williams    | U    | 0000-00-00 | AUS     |
+| Kerry      | Ballard     | U    | 1949-12-16 | AUS     |
+| Lorraine   | Coghlan     | U    | 1937-09-23 | AUS     |
+| Valerie    | Caulley     | U    | 0000-00-00 | AUS     |
+| L          | Griffiths   | U    | 0000-00-00 | AUS     |
+| Sandra     | Hole        | U    | 0000-00-00 | AUS     |
+| Beryl      | Jenkins     | U    | 0000-00-00 | AUS     |
++------------+-------------+------+------------+---------+
+20 rows in set (0.00 sec)

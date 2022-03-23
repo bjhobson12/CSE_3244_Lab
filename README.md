@@ -36,7 +36,7 @@ or run
 
 To save mysql state into file
 
-sudo mysqldump -u root -p tennis > /src/mysql_dump.sql
+```sudo mysqldump -u root -p tennis > /src/mysql_dump.sql```
 
 ## Task One
 [Answers](./tasks/task_one.txt)
@@ -46,6 +46,9 @@ sudo mysqldump -u root -p tennis > /src/mysql_dump.sql
 ## Task Two
 [Answers](./tasks/task_two.txt)
 ![alt text](./images/Task_Two.png "Task Two Complete")
+
+## Task Three
+[Answers](./tasks/task_three.txt)
     
 ## Authors
 
