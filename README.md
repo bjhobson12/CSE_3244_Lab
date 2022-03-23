@@ -18,6 +18,14 @@ This is the lab for CSE 3244 | 25546 Spring 2022.
     task_seven.py
     task_eight.py
 ```
+
+## Accounts
+
+For this lab a GCP account was made with email cse3244osu@gmail.com and password 3244_osu. This account will be used for GCP.
+
+## Task One
+[Answers](./tasks/task_one.txt)
+![alt text](./images/Task_One.png "Task One Complete")
     
 ## Authors
 

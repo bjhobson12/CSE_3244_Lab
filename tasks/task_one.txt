@@ -1,0 +1,23 @@
+Answers:
+
+1) What is “docker run”?
+    docker run is a command to invoke a certain image. An image is assembled from a dockerfile; once that build image is assembled, it can run a container of that image with this command. In the simplest terms, 
+    this command creates an instance of the image running on the native OS through docker.
+2) why are we using “--hostname"?
+    This arg is supplied to set the hostname of the container image. It is a relavent name for the container because it's base image is from cloudera.
+3) what does “--privileged=true” indicate?
+    This indicates that the container should be considered as a root superuser, giving it access to the host OS.
+4) why is “-i -t” required?
+    "For interactive processes (like a shell), you must use -i -t together in order to allocate a tty for the container process." - https://docs.docker.com/engine/reference/run/
+    Reworded, using these flags together ensures that from a shell, commands can be issued to the container and the output can be seen all from the parent terminal. This essentally "connects"
+    the parent terminal to mock a terminal running in the docker container.
+5) what does “-v src:dest” do? Does it map a directory from host to directory inside container?
+    This will mount a volume from the parent OS to the docker cotainer, making it's contents viewable. So yes, in a sense it makes a host directory accessible to the docker container as mounted volume.
+6) “8888” is Hue port from docker container. Why is it mapped to port 8777 from VM?
+    The -p flag will expose the first port on the host machine, as it will truly accept a connection and then process that request to the container on the second port. In a sense, it manually 
+    binds the host port to the container port. This is why a connection is made to 8777 since the host has exposed this port and passes it to port 8888 on the docker container.
+7) What is “b46c7719892d” in the issued command?
+    “b46c7719892d” is not issued in the original command. It is assumed, however, that this question is getting at why one would supply the container id to the docker run command. There may be 
+    more than one container on our host machine so we must elect to run one; in this case we are sure to run our cloudera container.
+
+Task one complete
