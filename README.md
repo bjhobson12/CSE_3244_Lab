@@ -23,4 +23,4 @@ This is the lab for CSE 3244 | 25546 Spring 2022.
 
 - [Benjamin Hobson](mailto:hobson.89@osu.edu)
 - Bobby Spech
-- Samuel Mahle.11
+- Samuel Mahle
