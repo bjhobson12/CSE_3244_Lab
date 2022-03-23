@@ -1,0 +1,28 @@
+CREATE TABLE players (
+  player_id int NOT NULL, 
+  name_first VARCHAR (30), 
+  name_last VARCHAR (80), 
+  hand CHAR(1), 
+  dob DATE,
+  country CHAR(3), 
+  height int, 
+  wikidata_id VARCHAR (12)
+);
+
+CREATE TABLE ranks (
+  ranking_date DATE NOT NULL , 
+  rank int, 
+  player int, 
+  point int, 
+  tours int
+);
+
+LOAD DATA INFILE "/src/wta_players.csv" INTO TABLE players FIELDS TERMINATED BY ','
+OPTIONALLY ENCLOSED BY '"' ESCAPED BY '"' LINES TERMINATED BY '\n' IGNORE 1 LINES;
+
+LOAD DATA INFILE "/src/wta_rankings_00s.csv" INTO TABLE ranks FIELDS TERMINATED BY ','
+OPTIONALLY ENCLOSED BY '"' ESCAPED BY '"' LINES TERMINATED BY '\n' IGNORE 1 LINES;
+LOAD DATA INFILE "/src/wta_rankings_10s.csv" INTO TABLE ranks FIELDS TERMINATED BY ','
+OPTIONALLY ENCLOSED BY '"' ESCAPED BY '"' LINES TERMINATED BY '\n' IGNORE 1 LINES;
+LOAD DATA INFILE "/src/wta_rankings_20s.csv" INTO TABLE ranks FIELDS TERMINATED BY ','
+OPTIONALLY ENCLOSED BY '"' ESCAPED BY '"' LINES TERMINATED BY '\n' IGNORE 1 LINES;
