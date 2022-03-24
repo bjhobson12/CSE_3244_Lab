@@ -1,0 +1,12 @@
+mysql> SELECT country, count(player_id) FROM players P JOIN ranks R ON P.player_id = R.player WHERE P.player_id < 200301 AND R.rank < 4 AND R.rank > 0 GROUP BY country;
++---------+------------------+
+| country | count(player_id) |
++---------+------------------+
+| BEL     |              364 |
+| ESP     |                1 |
+| FRA     |              161 |
+| RUS     |                9 |
+| SUI     |              104 |
+| USA     |              724 |
++---------+------------------+
+6 rows in set (0.53 sec)

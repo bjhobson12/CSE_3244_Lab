@@ -45,10 +45,36 @@ To save mysql state into file
 
 ## Task Two
 [Answers](./tasks/task_two.txt)
+
 ![alt text](./images/Task_Two.png "Task Two Complete")
 
 ## Task Three
 [Answers](./tasks/task_three.txt)
+
+![alt text](./images/Task_Three.png "Task Three Complete")
+
+## Task Four
+[Answers](./tasks/task_four.txt)
+
+Task four photo ommited because runtime is too exhaustive and GCP disconnects before screenshot can be taken.
+
+## Task Five
+[Answers](./tasks/task_five.txt)
+
+![alt text](./images/Task_Five.png "Task Five Complete")
+
+## Task Six
+[Answers](./tasks/task_six.txt)
+
+![alt text](./images/Task_Six.png "Task Six Complete")
+
+## Task Seven
+[Answers](./tasks/task_seven.txt)
+
+![alt text](./images/Task_Seven.png "Task Seven Complete")
+
+## Task Eight
+[Answers](./tasks/task_eight.txt)
     
 ## Authors
 
