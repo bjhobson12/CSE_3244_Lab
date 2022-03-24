@@ -1,4 +1,11 @@
-untested query:
-
-SELECT rank, count(DISTINCT player_id) FROM players P JOIN ranks R ON P.player_id = R.player GROUP BY rank LIMIT 5;
-
+mysql> SELECT rank, count(DISTINCT player_id) FROM players P JOIN ranks R ON P.player_id = R.player GROUP BY rank LIMIT 5;
++------+---------------------------+
+| rank | count(DISTINCT player_id) |
++------+---------------------------+
+|    1 |                        20 |
+|    2 |                        27 |
+|    3 |                        35 |
+|    4 |                        44 |
+|    5 |                        49 |
++------+---------------------------+
+5 rows in set (49 min 5.90 sec)
