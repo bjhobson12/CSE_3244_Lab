@@ -1,0 +1,4 @@
+untested query:
+
+SELECT rank, count(DISTINCT player_id) FROM players P JOIN ranks R ON P.player_id = R.player GROUP BY rank LIMIT 5;
+
