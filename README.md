@@ -75,6 +75,8 @@ Task four photo ommited because runtime is too exhaustive and GCP disconnects be
 
 ## Task Eight
 [Answers](./tasks/task_eight.txt)
+
+![alt text](./images/Task_Eight.png "Task Eight Complete")
     
 ## Authors
 

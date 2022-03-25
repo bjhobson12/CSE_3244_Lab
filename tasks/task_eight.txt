@@ -1,0 +1,20 @@
+mysql> SELECT P.country, P.hand, R.rank, C.wins FROM countwins C JOIN players P ON P.player_id=C.pid JOIN ranks R on R.player=P.player_id WHERE P.player_id < 200301 AND R.rank < 9 GROU
+P BY P.country, P.hand, R.rank LIMIT 30;
++---------+------+------+------+
+| country | hand | rank | wins |
++---------+------+------+------+
+| AUS     | R    |    4 |    5 |
+| AUS     | R    |    5 |    5 |
+| AUS     | R    |    6 |    5 |
+| AUS     | R    |    7 |    5 |
+| AUS     | R    |    8 |    3 |
+| RUS     | R    |    3 |    1 |
+| RUS     | R    |    4 |    1 |
+| RUS     | R    |    5 |    1 |
+| RUS     | R    |    6 |    1 |
+| RUS     | R    |    7 |    1 |
+| RUS     | R    |    8 |    1 |
+| SUI     | L    |    7 |    1 |
+| SUI     | L    |    8 |    1 |
++---------+------+------+------+
+13 rows in set (0.79 sec)
