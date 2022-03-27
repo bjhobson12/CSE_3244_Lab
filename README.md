@@ -6,18 +6,17 @@ This is the lab for CSE 3244 | 25546 Spring 2022.
 ## File Tree
 ```
 - README.md
-- main.py
 - CSE3244_GCPLab_Overview.pdf
 - images
 - tasks
-    task_one.py
-    task_two.py
-    task_three.py
-    task_four.py
-    task_five.py
-    task_six.py
-    task_seven.py
-    task_eight.py
+    task_one.txt
+    task_two.txt
+    task_three.txt
+    task_four.txt
+    task_five.txt
+    task_six.txt
+    task_seven.txt
+    task_eight.txt
 ```
 
 ## Accounts
